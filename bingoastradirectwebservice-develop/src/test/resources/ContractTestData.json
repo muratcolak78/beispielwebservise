@@ -1,0 +1,969 @@
+{
+  "id": "522bd451-17c7-4fda-8f97-e515ececa584",
+  "uuid": "e7cca82f81b4a1b",
+  "lastEditor": "transferOnlineOrderScript",
+  "createdUser": "createHuContractsFromEs",
+  "createdDate": "22.04.2025 12:16:24",
+  "timestamp": "22.04.2025 12:49:31",
+  "contractNumber": "101 1066018",
+  "signupTime": "22.04.2025 12:16:24",
+  "insuranceStart": "01.05.2025",
+  "price": 39.9,
+  "orderStatus": null,
+  "orderLog": null,
+  "brokerId": "",
+  "multiplePersons": true,
+  "brokerNumber1": "70/585/2890",
+  "brokerNumber2": null,
+  "brokerNumber3": null,
+  "contractStatus": {
+    "uuid": "1eff3526dffa46d2",
+    "lastEditor": "tley",
+    "createdUser": "tley",
+    "createdDate": "21.08.2018 13:59:23",
+    "timestamp": "12.09.2018 14:12:42",
+    "attributes": null,
+    "status": 63,
+    "name": "Onlineantrag übermitteln",
+    "label": "Onlineantrag übermitteln",
+    "description": null
+  },
+  "insuranceType": {
+    "uuid": "3f9ecba5243a4a03",
+    "lastEditor": null,
+    "createdUser": null,
+    "createdDate": null,
+    "timestamp": null,
+    "id": null,
+    "insuranceTypeRule_uuid": null,
+    "client_uuid": null,
+    "status_uuid": null,
+    "name": "zazu2",
+    "type": null,
+    "description": null,
+    "preSteps": "Ihre Angaben zur Berechnung",
+    "projectSet": null,
+    "postSteps": "Angaben zum Versicherungsnehmer;Bankverbindung",
+    "universalTemplate": false,
+    "onlineOrderWithOffer": false
+  },
+  "tariff": {
+    "uuid": "7dd632d187cabb23",
+    "lastEditor": null,
+    "createdUser": null,
+    "createdDate": null,
+    "timestamp": null,
+    "type": "TARIFF",
+    "name": "zahnperfekt",
+    "suffix": "",
+    "price": null,
+    "displayPriority": 13756,
+    "condiCheck": 0,
+    "hasPriceWebservice": false,
+    "hasContractWebservice": false,
+    "rating": null,
+    "priceIsPercent": false,
+    "selectedTariffRetention": 0.0,
+    "selectedMinimumDuration": null,
+    "tariffNameComplete": "Allianz Private Krankenversicherungs- AG MeinZahnschutz 100 (ZS100)",
+    "getIdentifier": null,
+    "startDate":"01.05.2025",
+    "endDate": null,
+    "bestTariffFor": 0,
+    "messages": {},
+    "tariffMessages": null,
+    "tariffPriceType": null,
+    "insurance": {
+      "uuid": "4ad787c6e70bb4bb",
+      "lastEditor": null,
+      "createdUser": null,
+      "createdDate": null,
+      "timestamp": null,
+      "nameLong": "Allianz Private Krankenversicherungs- AG",
+      "nameShort": "Allianz",
+      "name": "allianz",
+      "logoUrl": "https://static.huvecdn.com/vendorAssets/allianz_logo.png",
+      "creditorId": "DE40ZZZ00000063851",
+      "bafinId": "4034",
+      "directDebitTerms": "<p class=\"\"><strong>Einwilligung f&uuml;r Allianz Private Krankenversicherungs-AG K&ouml;niginstr. 28, 80802 M&uuml;nchen</strong><br />\nDie Mandatsreferenz wird separat mitgeteilt</p>\n\n<p class=\"\">Ich erm&auml;chtige/Der Kontoinhaber erm&auml;chtigt die Allianz Private Krankenversicherungs-AG, Zahlungen vom angegebenen Konto mittels Lastschrift einzuziehen. Zugleich weise ich/weist der Kontoinhaber das jeweilige Kreditinstitut an, die von der Allianz Private Krankenversicherungs-AG auf das angegebene Konto gezogenen Lastschriften einzul&ouml;sen. Ich bin/der Kontoinhaber ist damit einverstanden, dass der SEPA Basis-Lastschrift-Einzug dem Versicherungsnehmer sp&auml;testens einen Kalendertag vorab angek&uuml;ndigt wird. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, kann die Erstattung des belasteten Betrages verlangt werden. Es gelten dabei die mit dem eigenen Kreditinstitut vereinbarten Bedingungen.</p>\n\n<p class=\"\">Ich willige mit der Antragsstellung ein, dass die Allianz Private Krankenversicherungs-AG, sowie jeweilige Risikotr&auml;ger, Informationen &uuml;ber mein Zahlungsverhalten zum Zwecke des Vertragsabschlusses, der Vertragsverwaltung und -abwicklung und im Schadenfall von einer Auskunftei (z. B.infoscore Consumer Data GmbH, Rheinstra&szlig;e 99, 76532 Baden-Baden; Creditreform AG) einholt und verarbeitet.</p>\n",
+      "insuranceTypeList": [],
+      "status": {
+        "uuid": "3599c1b2b62c4a84",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": null,
+        "name": "Aktiv",
+        "status": 1
+      }
+    },
+    "insuranceType": null,
+    "status": {
+      "uuid": "3599c1b2b62c4a84",
+      "lastEditor": null,
+      "createdUser": null,
+      "createdDate": null,
+      "timestamp": null,
+      "name": "Aktiv",
+      "status": 1
+    },
+    "emailOrder": false
+  },
+  "contractData": {
+    "uuid": "2e89e17bb29b436",
+    "lastEditor": null,
+    "createdUser": "createHuContractsFromEs",
+    "createdDate": "22.04.2025 12:16:24",
+    "timestamp": "22.04.2025 12:16:24",
+    "attributes": null,
+    "value": {
+      "88": {
+        "uuid": "3d2632956b8fb1ab",
+        "name": "lpForename",
+        "returnValue": "Ahmet colak"
+      },
+      "89": {
+        "uuid": "2378539a337d480a",
+        "name": "barmenia_differentInsurance",
+        "returnValue": "0"
+      },
+      "90": {
+        "uuid": "260edf749fc1bbcd",
+        "name": "realtedList",
+        "returnValue": "Kind, Adoptiv- oder Pflegekind"
+      },
+      "91": {
+        "uuid": "6da380994309bb1e",
+        "name": "sdk_missingTooth",
+        "returnValue": "0"
+      },
+      "92": {
+        "uuid": "6ca364c53e9fbabc",
+        "name": "advigon_incareFuture",
+        "returnValue": "0"
+      },
+      "93": {
+        "uuid": "7943e3c58e6f4a77",
+        "name": "deutsche-familienversicherung_missingTooth",
+        "returnValue": "1"
+      },
+      "94": {
+        "uuid": "15a7b683b2efbffa",
+        "name": "ipHousenumber",
+        "returnValue": "99"
+      },
+      "selectedMinimumDuration": "null",
+      "95": {
+        "uuid": "",
+        "name": "selectedTariffRetention",
+        "returnValue": "0"
+      },
+      "96": {
+        "uuid": "",
+        "name": "priceIsPercent",
+        "returnValue": "false"
+      },
+      "97": {
+        "uuid": "",
+        "name": "selectedMinimumDuration",
+        "returnValue": "null"
+      },
+      "10": {
+        "uuid": "55ef817ffb84b9a0",
+        "name": "diebayerische_prosthesis",
+        "returnValue": "0"
+      },
+      "11": {
+        "uuid": "de74fc63e33459e",
+        "name": "hallesche_incare-1",
+        "returnValue": "0"
+      },
+      "12": {
+        "uuid": "4691c08fcbb4346",
+        "name": "wuerttembergische_hypodontia",
+        "returnValue": "0"
+      },
+      "13": {
+        "uuid": "17f50f5cb32f4f86",
+        "name": "barmenia_paradontose",
+        "returnValue": "0"
+      },
+      "14": {
+        "uuid": "4d4a43aa0c0baed",
+        "name": "looseProsthesis",
+        "returnValue": "0"
+      },
+      "15": {
+        "uuid": "130c9dcdb389b030",
+        "name": "deutsche-familienversicheurng_incare",
+        "returnValue": "0"
+      },
+      "16": {
+        "uuid": "3c013a882cd84d8e",
+        "name": "advigon_incare",
+        "returnValue": "0"
+      },
+      "17": {
+        "uuid": "7b399fa4166a4ac2",
+        "name": "lpSurname",
+        "returnValue": "TestVpNn"
+      },
+      "18": {
+        "uuid": "4824b8b003f8be82",
+        "name": "concordia_missingTooth",
+        "returnValue": "1"
+      },
+      "19": {
+        "uuid": "3da9a495eba8b4bf",
+        "name": "sepaBic",
+        "returnValue": "NORSDE51XXX"
+      },
+      "0": {
+        "uuid": "48772a34a15d4c24",
+        "name": "filterKfoChild",
+        "returnValue": "true"
+      },
+      "1": {
+        "uuid": "267befaed1fe4aa6",
+        "name": "lkh_incareKfoParodontose",
+        "returnValue": "0"
+      },
+      "2": {
+        "uuid": "266174d88221471a",
+        "name": "birthdate",
+        "returnValue": "01.01.1978"
+      },
+      "3": {
+        "uuid": "3d17ce26dec7b911",
+        "name": "lkh_incare",
+        "returnValue": "0"
+      },
+      "4": {
+        "uuid": "4bf14f95562a4f9a",
+        "name": "ottonova_otherInsurance",
+        "returnValue": "0"
+      },
+      "5": {
+        "uuid": "a998197b4ca4be1",
+        "name": "bankOtherAddressQuestion",
+        "returnValue": "1"
+      },
+      "tariffPrice": 21.84,
+      "6": {
+        "uuid": "350c800e6770b58e",
+        "name": "advigon_pardontose3y",
+        "returnValue": "0"
+      },
+      "7": {
+        "uuid": "5d5eb923e8de466a",
+        "name": "insureToothCount",
+        "returnValue": "1"
+      },
+      "8": {
+        "uuid": "ec6c5aa1a1fb6ca",
+        "name": "missingTooth",
+        "returnValue": "0"
+      },
+      "9": {
+        "uuid": "6ee9b0dc3f8f44a5",
+        "name": "erstinformation_zazu",
+        "returnValue": "[1]"
+      },
+      "20": {
+        "uuid": "798fe67d1a08baac",
+        "name": "allianz_otherInsurance",
+        "returnValue": "0"
+      },
+      "21": {
+        "uuid": "67e62213ca43b1fc",
+        "name": "ottonova_missingTooth",
+        "returnValue": "1"
+      },
+      "22": {
+        "uuid": "22576fd03d6d4b8c",
+        "name": "filterBleaching",
+        "returnValue": "false"
+      },
+      "23": {
+        "uuid": "4c734ef36d3eb9c9",
+        "name": "parodontoseEver",
+        "returnValue": "0"
+      },
+      "24": {
+        "uuid": "47aecef6da10b63b",
+        "name": "advigon_missingTooth",
+        "returnValue": "1"
+      },
+      "tariffUuid": "7dd632d187cabb23",
+      "25": {
+        "uuid": "2898b3d48f2b4af9",
+        "name": "filterAgeProvision",
+        "returnValue": "false"
+      },
+      "26": {
+        "uuid": "7f17c55f4ed0b065",
+        "name": "insureToothIncare",
+        "returnValue": "0"
+      },
+      "27": {
+        "uuid": "270435fbe6814719",
+        "name": "diebayerische_missingTooth",
+        "returnValue": "1"
+      },
+      "28": {
+        "uuid": "64a7991cd43443ac",
+        "name": "allianz_missingTooth",
+        "returnValue": "1"
+      },
+      "29": {
+        "uuid": "7a8b435094bb481a",
+        "name": "questionSelfInsuredPerson",
+        "returnValue": "0"
+      },
+      "singleTariffCalculation": true,
+      "30": {
+        "uuid": "57a903c7d418b5b2",
+        "name": "filterWaitingPeriod",
+        "returnValue": "false"
+      },
+      "31": {
+        "uuid": "7392761887cf45b9",
+        "name": "ipTelefon",
+        "returnValue": "017630660100"
+      },
+      "32": {
+        "uuid": "1698b493a5b24c7b",
+        "name": "firstName",
+        "returnValue": "TestVnFirst"
+      },
+      "33": {
+        "uuid": "47238b77d07345b6",
+        "name": "lpBirthdate",
+        "returnValue": "01.01.1978"
+      },
+      "34": {
+        "uuid": "5f91b9b0d2bc44b9",
+        "name": "hallesche_parodontose3y",
+        "returnValue": "0"
+      },
+      "35": {
+        "uuid": "1e2ac4313a42b1b1",
+        "name": "lpHealthInsurance",
+        "returnValue": "AOK"
+      },
+      "36": {
+        "uuid": "656512f8d2d6b20b",
+        "name": "deutsche-familienversicherung_parodontose5y",
+        "returnValue": "0"
+      },
+      "37": {
+        "uuid": "bc5ad4c06b143b6",
+        "name": "salutation",
+        "returnValue": "Herr"
+      },
+      "38": {
+        "uuid": "374875792a54935",
+        "name": "lkh_missingTooth",
+        "returnValue": "1"
+      },
+      "39": {
+        "uuid": "74270a161728bc45",
+        "name": "lpJob",
+        "returnValue": "arzt"
+      },
+      "priceIsPercent": false,
+      "tariffName": "ZP5",
+      "40": {
+        "uuid": "2f76c4fe5484bb0",
+        "name": "job",
+        "returnValue": "arzt"
+      },
+      "41": {
+        "uuid": "49b8c5e3101c4984",
+        "name": "advigon_preInsuranceYesNo",
+        "returnValue": "0"
+      },
+      "42": {
+        "uuid": "502850690fd34961",
+        "name": "diebayerische_fixedProsthesis",
+        "returnValue": "0"
+      },
+      "43": {
+        "uuid": "5393995b4e45435c",
+        "name": "kv_insurance",
+        "returnValue": "gesetzliche Krankenversicherung"
+      },
+      "44": {
+        "uuid": "4e516009454bb662",
+        "name": "lastName",
+        "returnValue": "TestVnlast"
+      },
+      "45": {
+        "uuid": "3c727aea1e0bb047",
+        "name": "concordia_residance3y",
+        "returnValue": "1"
+      },
+      "46": {
+        "uuid": "5924891dcbceb420",
+        "name": "hallesche_kv-12m",
+        "returnValue": "1"
+      },
+      "47": {
+        "uuid": "2d1a143eb7854454",
+        "name": "barmenia_missingTooth",
+        "returnValue": "1"
+      },
+      "selectedTariffRetention": 0,
+      "48": {
+        "uuid": "5fadd095a795bf67",
+        "name": "ipPostcode",
+        "returnValue": "73733"
+      },
+      "49": {
+        "uuid": "2521b82771d14b7b",
+        "name": "wuerttembergische_incare",
+        "returnValue": "0"
+      },
+      "isOnlineOrder": true,
+      "50": {
+        "uuid": "497cf4408be147e3",
+        "name": "ipCity",
+        "returnValue": "Esslingen am Neckar"
+      },
+      "51": {
+        "uuid": "36218e7ec16f419f",
+        "name": "ipStreet",
+        "returnValue":"Altereberger straße"
+      },
+      "52": {
+        "uuid": "1c3ad939469fb32b",
+        "name": "muenchener-verein_missingTooth",
+        "returnValue": "1"
+      },
+      "53": {
+        "uuid": "6b1d4a7cb5b9b51d",
+        "name": "allianz_incareYesNo",
+        "returnValue": "0"
+      },
+      "54": {
+        "uuid": "1f7b6e9002784ccc",
+        "name": "astra_missingTooth",
+        "returnValue": "1"
+      },
+      "55": {
+        "uuid": "5b95e42fc981b56c",
+        "name": "lpSalutation",
+        "returnValue": "Herr"
+      },
+      "56": {
+        "uuid": "7c4f05828215b482",
+        "name": "ipBirthdate",
+        "returnValue": "01.01.1978"
+      },
+      "57": {
+        "uuid": "5556cdb1798e444a",
+        "name": "concordia_insureToothCount",
+        "returnValue": "1"
+      },
+      "58": {
+        "uuid": "72b9159cf4494cb3",
+        "name": "concordia_paymentDiscount",
+        "returnValue": "monthly"
+      },
+      "signUpTimeStr": "22.04.2025 12:16:17",
+      "59": {
+        "uuid": "5d294947be06b149",
+        "name": "leistung",
+        "returnValue": "Komfort"
+      },
+      "ipAddress": "10.244.3.0",
+      "documentUrls": [
+        "rest/v2/document/e5-ab-e5ab47613005b43110fd221fb90a4064/1/FLYER_~1.PDF",
+        "rest/v2/document/a1-0f-a10f7561da41cae6867bc6a633bc5d9b/2/MEINZAHNSCHUTZ%20100%20(ZS100).pdf",
+        "rest/v2/document/8b-b7-8bb7d8ba615cd0cbb43e2bf9aa993211/1/EV---4133Z0_00.pdf"
+      ],
+      "60": {
+        "uuid": "",
+        "name": "metaData",
+        "returnValue": "null"
+      },
+      "61": {
+        "uuid": "469bbf2276bb41b2",
+        "name": "concordia_parodontose3y",
+        "returnValue": "0"
+      },
+      "62": {
+        "uuid": "1423fa046bf3b949",
+        "name": "filterPerformanceScale",
+        "returnValue": "false"
+      },
+      "projectName": "zazu",
+      "63": {
+        "uuid": "5cd3336b7934b935",
+        "name": "fixedProsthesis",
+        "returnValue": "0"
+      },
+      "64": {
+        "uuid": "2b9a7301e6b9b94f",
+        "name": "sepaBankName",
+        "returnValue": "norisbank"
+      },
+      "65": {
+        "uuid": "17028ef5b45eb69e",
+        "name": "insurers",
+        "returnValue": "[object Object]"
+      },
+      "66": {
+        "uuid": "7f167a0c6e0241b0",
+        "name": "filterChalkTooth",
+        "returnValue": "false"
+      },
+      "67": {
+        "uuid": "54d21428352146a2",
+        "name": "sepaBankIban",
+        "returnValue": "DE27100777770209299700"
+      },
+      "68": {
+        "uuid": "3d2ffca028664bfe",
+        "name": "commentField",
+        "returnValue": ""
+      },
+      "69": {
+        "uuid": "6ce53ae6579b4f05",
+        "name": "tooth",
+        "returnValue": "1"
+      },
+      "error": true,
+      "subproject": null,
+      "signUpTime": 1745316977277,
+      "70": {
+        "uuid": "5ddc789442914142",
+        "name": "email",
+        "returnValue": "test@test123.de"
+      },
+      "71": {
+        "uuid": "73baea4a67b1b79b",
+        "name": "ottonova_looseProsthesis",
+        "returnValue": "0"
+      },
+      "72": {
+        "uuid": "beca42c03ecbc24",
+        "name": "incare",
+        "returnValue": "0"
+      },
+      "73": {
+        "uuid": "e774d55719b73f",
+        "name": "contractBegin",
+        "returnValue": "01.05.2025"
+      },
+      "74": {
+        "uuid": "3d28d34d86a84671",
+        "name": "wuerttembergische_tooth_jaw",
+        "returnValue": "0"
+      },
+      "75": {
+        "uuid": "444f03177651b313",
+        "name": "filterChangeBenefit",
+        "returnValue": "false"
+      },
+      "76": {
+        "uuid": "7e87aa9c1f346c5",
+        "name": "ipFamilyStatus",
+        "returnValue": "ledig"
+      },
+      "77": {
+        "uuid": "6e7a20bc3d4a4f5e",
+        "name": "filterNarcosis",
+        "returnValue": "false"
+      },
+      "78": {
+        "uuid": "658854388a07b620",
+        "name": "filterPZR",
+        "returnValue": "100"
+      },
+      "79": {
+        "uuid": "4f452d3d78bd4ae7",
+        "name": "toothPull",
+        "returnValue": "0"
+      },
+      "brokerId": "",
+      "calcSessionId": "77e279a504f9b41a",
+      "80": {
+        "uuid": "2429c8a8e2cd4570",
+        "name": "hallesche_missingTooth",
+        "returnValue": "1"
+      },
+      "81": {
+        "uuid": "6299df3643af46e3",
+        "name": "hallesche_incare",
+        "returnValue": "0"
+      },
+      "82": {
+        "uuid": "7ba599434997b85f",
+        "name": "ottonova_Parodontose3y",
+        "returnValue": "0"
+      },
+      "83": {
+        "uuid": "1cf28454c002b92a",
+        "name": "sepaBankOtherPersonQuestion",
+        "returnValue": "0"
+      },
+      "84": {
+        "uuid": "1617f12328c84ed7",
+        "name": "diebayerische_privateInsurer",
+        "returnValue": "0"
+      },
+      "85": {
+        "uuid": "90b96afe32db5c6",
+        "name": "healthinsurance",
+        "returnValue": "DAK"
+      },
+      "insuranceTypeName": "zazu2",
+      "86": {
+        "uuid": "5debba6f657143ef",
+        "name": "biteplane",
+        "returnValue": "0"
+      },
+      "100": {
+        "uuid": "2db1a7a9ced54a32",
+        "name": "sepaBankOtherPersonSalutation",
+        "returnValue": "Herr"
+      },
+      "101": {
+        "uuid": "5debba6f657143ef",
+        "name": "sepaBankOtherPersonForename",
+        "returnValue": "bankOthername"
+      },
+      "102": {
+        "uuid": "5debba6f657143ef",
+        "name": "sepaBankOtherPersonSurname",
+        "returnValue": "bankOtherlasName"
+      },
+      "103": {
+        "uuid": "5debba6f657143ef",
+        "name": "bankOtherAddressPostcode",
+        "returnValue": "12345"
+      },
+      "104": {
+        "uuid": "2db1a7a9ced54a32",
+        "name": "bankOtherAddressCity",
+        "returnValue": "Wendlingen"
+      },
+      "105": {
+        "uuid": "5debba6f657143ef",
+        "name": "bankOtherAddressStreet",
+        "returnValue": "testStrasse"
+      },
+      "106": {
+        "uuid": "5debba6f657143ef",
+        "name": "bankOtherAddressHousenumber",
+        "returnValue": "123"
+      }
+    },
+    "client": null
+  },
+  "person": {
+    "uuid": "172c1a0e46c5b05b",
+    "lastEditor": "combinePersonService",
+    "createdUser": null,
+    "createdDate": null,
+    "timestamp": "22.04.2025 12:16:24",
+    "attributes": null,
+    "forename": "TestVnFirst",
+    "surname": "TestVnlast",
+    "birthdate": "01.01.1978",
+    "nativeCountry": null,
+    "birthplace": null,
+    "nationality": null,
+    "gender": "male",
+    "salutation": "Herr",
+    "salutationComplete": "Sehr geehrter Herr",
+    "title": null,
+    "telefon": "017630660100",
+    "job": "artz",
+    "healthinsurance": null,
+    "familyStatus": "ledig",
+    "email": "test@test123.de",
+    "fax": null,
+    "brokerId": "",
+    "deduplicated": true,
+    "noAdvertising": false,
+    "version": null,
+    "address": {
+      "uuid": "eabdf5873fcb8df",
+      "lastEditor": "combinePersonService",
+      "createdUser": "createHuContractsFromEs",
+      "createdDate": "22.04.2025 12:16:23",
+      "timestamp": "22.04.2025 12:16:24",
+      "attributes": null,
+      "street": "Altenbergweg",
+      "houseNumber": "99",
+      "additional": "undefined",
+      "postcode": "73733",
+      "city": "Esslingen am Neckar",
+      "addressType": {
+        "uuid": "5c24a98de5a3ba49",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": "15.09.2014 16:28:00",
+        "type": "privat",
+        "name": "privat",
+        "description": "",
+        "client": {
+          "uuid": "61be4ee53134a0c",
+          "lastEditor": null,
+          "createdUser": null,
+          "createdDate": null,
+          "timestamp": "30.08.2014 12:52:38",
+          "attributes": null,
+          "name": "versicherungs-experten",
+          "label": "Versicherungs Experten 24h",
+          "description": null,
+          "status": {
+            "id": null,
+            "uuid": "3599c1b2b62c4a84",
+            "lastEditor": null,
+            "createdUser": null,
+            "createdDate": null,
+            "timestamp": null,
+            "name": "Aktiv",
+            "status": 1
+          }
+        }
+      },
+      "country": {
+        "uuid": "3fbe9a0ddfeb4e62",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": "16.09.2014 11:37:31",
+        "attributes": null,
+        "country": "Deutschland",
+        "nationCode": "DEU",
+        "client": {
+          "uuid": "61be4ee53134a0c",
+          "lastEditor": null,
+          "createdUser": null,
+          "createdDate": null,
+          "timestamp": "30.08.2014 12:52:38",
+          "attributes": null,
+          "name": "versicherungs-experten",
+          "label": "Versicherungs Experten 24h",
+          "description": null,
+          "status": {
+            "id": null,
+            "uuid": "3599c1b2b62c4a84",
+            "lastEditor": null,
+            "createdUser": null,
+            "createdDate": null,
+            "timestamp": null,
+            "name": "Aktiv",
+            "status": 1
+          }
+        }
+      },
+      "client": null,
+      "addressComplete": "undefined Altenbergweg 99 - 73733 Esslingen am Neckar",
+      "streetComplete": "undefined Altenbergweg 99"
+    },
+    "addressList": [{
+      "modelType": "address",
+      "uuid": "eabdf5873fcb8df",
+      "lastEditor": "combinePersonService",
+      "createdUser": "createHuContractsFromEs",
+      "createdDate": "22.04.2025 12:16:23",
+      "timestamp": "22.04.2025 12:16:24",
+      "attributes": null,
+      "street": "Altenbergweg",
+      "houseNumber": "99",
+      "additional": "undefined",
+      "postcode": "73733",
+      "city": "Esslingen am Neckar",
+      "addressType": {
+        "uuid": "5c24a98de5a3ba49",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": "15.09.2014 16:28:00",
+        "type": "privat",
+        "name": "privat",
+        "description": "",
+        "client": {
+          "uuid": "61be4ee53134a0c",
+          "lastEditor": null,
+          "createdUser": null,
+          "createdDate": null,
+          "timestamp": "30.08.2014 12:52:38",
+          "attributes": null,
+          "name": "versicherungs-experten",
+          "label": "Versicherungs Experten 24h",
+          "description": null,
+          "status": {
+            "id": null,
+            "uuid": "3599c1b2b62c4a84",
+            "lastEditor": null,
+            "createdUser": null,
+            "createdDate": null,
+            "timestamp": null,
+            "name": "Aktiv",
+            "status": 1
+          }
+        }
+      },
+      "country": {
+        "uuid": "3fbe9a0ddfeb4e62",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": "16.09.2014 11:37:31",
+        "attributes": null,
+        "country": "Deutschland",
+        "nationCode": "DEU",
+        "client": {
+          "uuid": "61be4ee53134a0c",
+          "lastEditor": null,
+          "createdUser": null,
+          "createdDate": null,
+          "timestamp": "30.08.2014 12:52:38",
+          "attributes": null,
+          "name": "versicherungs-experten",
+          "label": "Versicherungs Experten 24h",
+          "description": null,
+          "status": {
+            "id": null,
+            "uuid": "3599c1b2b62c4a84",
+            "lastEditor": null,
+            "createdUser": null,
+            "createdDate": null,
+            "timestamp": null,
+            "name": "Aktiv",
+            "status": 1
+          }
+        }
+      },
+      "client": null,
+      "addressComplete": "undefined Altenbergweg 99 - 73733 Esslingen am Neckar",
+      "streetComplete": "undefined Altenbergweg 99"
+    }
+    ],
+    "personType": {
+      "uuid": "6de20978290a4f68",
+      "lastEditor": null,
+      "createdUser": null,
+      "createdDate": null,
+      "timestamp": "16.09.2014 11:45:42",
+      "type": "Antragsteller",
+      "name": "Antragsteller",
+      "description": null,
+      "client": null
+    },
+    "mailing": null,
+    "project": {
+      "id": null,
+      "uuid": "a9f9e68b8b5495e",
+      "lastEditor": null,
+      "createdUser": null,
+      "createdDate": null,
+      "timestamp": "22.04.2025 12:16:17",
+      "name": "zazu",
+      "label": null,
+      "status": {
+        "id": null,
+        "uuid": "3599c1b2b62c4a84",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": null,
+        "name": "Aktiv",
+        "status": 1
+      },
+      "client": {
+        "id": null,
+        "uuid": "61be4ee53134a0c",
+        "lastEditor": null,
+        "createdUser": null,
+        "createdDate": null,
+        "timestamp": "30.08.2014 12:52:38",
+        "name": "versicherungs-experten",
+        "label": "Versicherungs Experten 24h",
+        "description": null,
+        "email": null,
+        "phoneNumber": null,
+        "mobile": null,
+        "clientRegistration": null,
+        "webSite": null,
+        "street": null,
+        "houseNumber": null,
+        "postcode": null,
+        "city": null,
+        "addressAddition": null,
+        "country": null,
+        "ihkNumber": null,
+        "ihkName": null,
+        "ihkStreet": null,
+        "ihkHouseNumber": null,
+        "ihkPostcode": null,
+        "ihkCity": null,
+        "ihkAddressAddition": null,
+        "ihkCountry": null,
+        "clientLogo": null,
+        "status": {
+          "id": null,
+          "uuid": "3599c1b2b62c4a84",
+          "lastEditor": null,
+          "createdUser": null,
+          "createdDate": null,
+          "timestamp": null,
+          "name": "Aktiv",
+          "status": 1
+        },
+        "subscription": null,
+        "layoutTheme": null,
+        "roles": null,
+        "subscriptions": null,
+        "brokerNumbers": null,
+        "insuranceTypes": null,
+        "insurances": null,
+        "documents": null
+      },
+      "clientId": null,
+      "currentContractNumberId": null,
+      "description": "zazu Vergleichsrechner",
+      "contractNumberPrefix": 0,
+      "contractNumberRange": 0,
+      "currentContractNumber": null
+    },
+    "contractList": null,
+    "client": null,
+    "status": null,
+    "personNameComplete": "Herr TestVnFirst TestVnlast",
+    "anonymized": false
+  },
+  "project": {
+    "uuid": "a9f9e68b8b5495e",
+    "lastEditor": null,
+    "createdUser": null,
+    "createdDate": null,
+    "timestamp": "22.04.2025 12:16:17",
+    "name": "zazu",
+    "label": null,
+    "contractNumberPrefix": 0,
+    "contractNumberRange": 0,
+    "description": "zazu Vergleichsrechner",
+    "status": {
+      "uuid": "3599c1b2b62c4a84",
+      "lastEditor": null,
+      "createdUser": null,
+      "createdDate": null,
+      "timestamp": null,
+      "name": "Aktiv",
+      "status": 1
+    }
+  },
+  "client": null,
+  "note": null,
+  "wayOfPayment": "1",
+  "priceItemList": null,
+  "onlineOrder": true
+}
